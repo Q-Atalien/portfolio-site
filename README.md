@@ -1,8 +1,8 @@
-#💼 Portfólio Angular - Atauine Dias
+# 💼 Portfólio Angular - Atauine Dias
 
 Este é um projeto de portfólio pessoal desenvolvido com Angular e Tailwind CSS. O objetivo é apresentar minhas habilidades, experiências e projetos, além de incluir um mini game interativo.
 
-##🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 - Angular
 - TypeScript
@@ -10,7 +10,7 @@ Este é um projeto de portfólio pessoal desenvolvido com Angular e Tailwind CSS
 - SCSS
 - HTML5, CSS3
 
-##📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
 src/
   app/
@@ -28,7 +28,7 @@ src/
       perfil.jpg
   styles.scss
 
-##🛠️ Instalação e Execução
+## 🛠️ Instalação e Execução
 
 1. Clone o repositório:
 
@@ -47,10 +47,10 @@ ng serve
 
 Acesse: http://localhost:4200
 
-##🎮 Mini Game
+## 🎮 Mini Game
 
 Inclui um mini game de reflexo (clique nos alvos 🎯 em até 15 segundos) feito com animações dinâmicas e manipulação de eventos.
 
-##✍️ Autor
+## ✍️ Autor
 
 Atauine Dias  
