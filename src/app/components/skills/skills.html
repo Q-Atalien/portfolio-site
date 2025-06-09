@@ -1,0 +1,32 @@
+<section id="skills" class="py-32 px-6 relative">
+  <div class="container mx-auto relative z-10">
+    <h2 class="text-5xl font-bold text-center mb-20 bg-gradient-to-r from-gray-800 to-gray-600 bg-clip-text text-transparent">
+      Skills
+    </h2>
+
+    <div class="max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+      <div
+        *ngFor="let categoria of skills; let i = index"
+        class="backdrop-blur-md border border-white/20 rounded-2xl p-8 text-center hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-2xl"
+        [ngStyle]="{
+          background:
+            'linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(179, 235, 77, 0.08) 100%)',
+          transform: 'translateY(' + getOffset(i) + 'px)'
+        }"
+      >
+        <div class="mb-6 text-4xl" style="color: #83ab3c">{{ categoria.icon }}</div>
+        <h3 class="text-2xl font-bold mb-6 text-gray-800">{{ categoria.title }}</h3>
+
+        <div class="flex flex-wrap justify-center gap-3">
+          <span
+            *ngFor="let skill of categoria.skills"
+            class="px-4 py-2 rounded-full text-sm font-medium backdrop-blur-md border border-white/20 hover:scale-105 transition-all duration-200"
+            style="background: rgba(179, 235, 77, 0.1); color: #666"
+          >
+            {{ skill }}
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
